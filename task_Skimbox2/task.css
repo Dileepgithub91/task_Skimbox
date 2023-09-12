@@ -1,0 +1,156 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+.bundle-line {
+    display: flex;
+    align-items: center;
+  }
+  
+  .line {
+    flex-grow: 10;
+    height: 1px;
+    width: 191px;
+    background-color: black;
+    margin: 5 10px;
+  }
+  
+  .bundle-text {
+    margin: 0;
+    font-size: 22px;
+    color: rgb(235, 102, 146);
+  }
+
+
+
+
+.firstPair{
+    border:1px solid black;
+    width: 550px;
+    height:100px ;
+    padding:auto;
+    margin-bottom: 30px;
+}
+
+.firstPair {
+    
+    display: flex; 
+    align-items: center; 
+    gap: 110px;
+  }
+  
+  .firstPair h2, .firstPair h3, .firstPair input[type="radio"] {
+    margin: 2; 
+  }
+  
+  
+  .firstPair > * {
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+
+
+
+.secondPair{
+    border:1px solid black;
+    width: 550px; 
+    padding:auto;
+    margin:auto;
+    margin-bottom: 30px;
+    background-color:lavenderblush;
+    
+}
+
+.content-line {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+  }
+  
+  .content-line > * {
+    margin-right: 15px; 
+    
+  }
+  
+  .content-line h3, .content-line h4, .content-line p {
+    margin: 0; 
+    
+    
+  }
+
+.thirdPair{
+    border:1px solid black;
+    width: 550px;
+    height:100px;
+    padding:auto;
+    margin:auto;
+    margin-bottom: 50px;
+}
+
+.content-line {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin-left: 30px;
+  }
+  
+  .content-line > * {
+    margin: 0;
+  }
+  
+  .content-line p, .content-line select {
+    margin: 0;
+  }
+
+
+
+.tline{
+    display: inline; 
+        margin-right: 144px;
+}
+.space-between {
+    margin-right: 20px;
+  }
+
+
+.thirdPair {
+    display: flex; 
+    align-items: center; 
+    gap:95px;
+  }
+  
+  .tline {
+    margin-right: 5px; 
+    margin-left: 30px;
+  }
+  
+  .tline h3, .tline h2, h2 {
+    margin: 0; 
+  }
+
+
+
+  .singleLine{
+    
+    display: inline; 
+    margin-right: 144px; 
+
+}
+
+
+.button{
+    background-color: rgb(237, 55, 86); 
+    width: 550px;
+    height:50px ;
+    margin-top: 30px;
+     color:white ;
+      border: none;
+}
